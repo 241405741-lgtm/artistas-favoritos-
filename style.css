@@ -1,0 +1,28 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#1a1028;color:#fff;min-height:100vh}
+
+/* BOTONES NAV */
+nav a{background:#2d1440 !important;color:#ffb3e6 !important;border:1px solid #ff6ec7 !important;cursor:pointer}
+nav a.activo, nav a:hover{background:linear-gradient(90deg,#ff6ec7,#c44bff) !important;color:#fff !important;box-shadow:0 0 12px #ff6ec7 !important}
+
+.seccion{display:none;padding:1rem 0}
+.seccion.visible{display:block;animation:fade .3s}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+h1{color:#ff6ec7;text-align:center;font-size:2.4rem;margin-bottom:1.5rem;text-shadow:0 0 12px #c44bff;font-weight:900}
+
+/* CARDS BOOTSTRAP */
+.card{background:linear-gradient(180deg,#2a1845,#3d1f5c) !important;border:1px solid #c44bff44 !important;border-radius:16px !important;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 10px 25px rgba(255,110,199,.5) !important}
+.card img{height:280px;object-fit:cover;object-position:top center}
+.card h3{color:#ffb3e6;font-weight:800;margin:0 0 6px}
+.card p{color:#d9b3ff;font-size:.9rem}
+
+/* LISTA CANCIONES */
+.list-group-item{background:#2a1845 !important;color:#fff !important;border:1px solid #c44bff55 !important;border-left:4px solid #ff6ec7 !important;border-radius:12px !important;margin-bottom:8px}
+.badge{background:linear-gradient(90deg,#ff6ec7,#c44bff) !important;color:#fff !important;padding:6px 12px}
+
+/* CONTACTO */
+.contacto{background:linear-gradient(180deg,#2a1845,#4a1a6b) !important;border:1px solid #ff6ec7 !important;border-radius:16px !important;text-align:center}
+.contacto .form-control{background:#1a1028 !important;color:#fff !important;border:1px solid #c44bff !important;border-radius:20px !important;padding:10px 15px}
+.contacto .form-control::placeholder{color:#d9b3ff88}
+.contacto .btn{background:linear-gradient(90deg,#ff6ec7,#c44bff);color:#fff;border:none;padding:11px}
